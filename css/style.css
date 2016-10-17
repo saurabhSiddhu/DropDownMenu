@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    
+}
+.inputDiv{
+
+				  margin-top: 100px;
+
+				  width: 500px;
+				  bottom: 20px;
+				  padding: 15px;
+				  border: solid 5px brown;
+				  transition: border 0.3s;
+				  border-radius: 15px;
+
+                   
+}
+.dropDownView{
+	border: solid 3.5px #252A45;
+	width: 480px;
+	color: #0C0908;
+	padding: 10px;
+	align-self: center;
+	margin: 0;
+	border-radius:15px 50px 30px;
+	margin-top: 4px;
+	overflow-y: auto;
+	
+	
+}
+.view{overflow: auto;
+	cursor: pointer;
+	overflow-y: auto;
+    height: 700px;
+    width: 510px;
+    margin: 0;
+    background-color: 50%;
+}
+.imageDiv{
+	text-align: left; 
+	width: 100px;
+	
+}
+.image{
+	border-radius: 20px;
+	width: 100;
+	height: 100;
+	text-align: left;
+}
+.firstLastName{
+	text-align: left; 
+	font: verdana; 
+	font-size: 25; 
+	padding-left: 50px; 
+	padding-top: 30px
+}
+.selected{
+	background-color: #C7C8BD;
+}
+.inputView{
+	float: left; 
+	padding-left: 5px; 
+	padding-right: 5px;
+	border-left: 5px;
+	border-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 3px;
+	font-style: lucida;
+	color: #BCBDB5;
+	border-top: 3px;
+	margin-top: 4px;
+	background-color: #E4E1E1;
+	border-radius: 25px;
+	cursor: cell;
+	color: #320105;
+	font-size: 20px;
+	border:solid 3px black;
+}
+.heading{
+	color: #F25D6E; 
+	font-style: charcoal;
+}

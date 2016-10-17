@@ -1,0 +1,7 @@
+      <!-- The input div element -->
+
+      <div   type="text" class="row inputDiv" placeholder="Famous guys" ng-click="change();$event.stopPropagation();"><div class="inputView" ng-repeat="name in Name" ng-click="deleteFromInbox(name)">{{name}}</div></div>
+
+      <div class="view" ng-transclude>
+         <!-- dropDownValue Directive template will come here -->
+      </div>

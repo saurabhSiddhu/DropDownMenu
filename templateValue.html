@@ -1,0 +1,9 @@
+<div class="row dropDownView"  ng-repeat="data in jsondata|startFrom:(currentPage-1)*pageSize|limitTo:pageSize" ng-if="value==1" ng-click="showData(data)" ng-class="{'selected':arrayID.indexOf(data._id)!=-1}">
+	          
+	          <span  class="imageDiv">
+	              <img  ng-src="{{data.img}}" class="image" >
+	          </span>
+	          <span class="firstLastName">{{data.firstName | uppercase}}{{' '+ data.lastName | uppercase}}
+	          </span>
+</div>
+
